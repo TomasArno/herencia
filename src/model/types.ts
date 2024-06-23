@@ -4,7 +4,7 @@ interface FullUserData {
     username: string;
     password: string;
     role: Role;
-    numSubjects: string[];
+    numSubjects: number;
     birthyear: number;
 }
 
@@ -17,14 +17,14 @@ interface UserData {
 interface TeacherData {
     username: string;
     password: string;
-    numSubjects: string[];
+    numSubjects: number;
     birthyear: number;
 }
 
 interface StudentData {
     username: string;
     password: string;
-    numSubjects: string[];
+    numSubjects: number;
     birthyear: number;
 }
 
